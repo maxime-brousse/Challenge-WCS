@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+/* header */
+header {
+  background: #fbdcdc;
+  text-align: center;
+  color: #fff;
+  padding: 0.8em;
+  box-shadow: 0.5px 0.5px 8px #191816;
+}
+header img {
+  max-width: 96px;
+}
+header h1 {
+  font-size: 2.5em;
+}
+
+/* main */
+main {
+  margin: 0 auto;
+  color:  #292929;
+}
+  /* form */
+  .new-member-form {
+    margin: 2em 0 4em 0;
+    text-align: center;
+  }
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+  }
+  .new-member-form input {
+    border:#f76c6c solid 1px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    width: 15%;
+    height: auto;
+    padding: 0.2em;
+
+  }
+  .new-member-form button {
+    background-color: #f76c6c;
+    border-radius: 10px;
+    border:#f76c6c solid 0.2em;
+    color: white;
+    font-size: 1.2em;
+    height: auto;
+    width: 10%;
+    box-shadow: 2.5px 2.5px 8px #191816;
+  }
+  .new-member-form button:hover {
+    background-color: #fbdcdc;
+    border: #fbdcdc solid 1px;
+  }
+  .pFaux {
+    font-size: 1.2em;
+    color: darkred;
+  }
+  .pVrai {
+    font-size: 1.2em;
+    color: green;
+  }
+  
+  /* member */
+  .member-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column; 
+    width: 100%;
+  }
+  .member-div tr:nth-child(odd) {
+    background-color: #f76c6c;
+    color: #fff;
+  }
+  .member-div td {
+    text-align: justify;
+    font-size: 1.2em;
+    padding: 0.2em 1.5em;
+  }
+/* end main */  
+
+/* footer */
+footer {
+  margin-top: 2em;
+  text-align: center;
+  color: #fff;
+  background: #f76c6c;
+  padding: 0.25em 0;
+}
+footer {
+  background: 
+}
